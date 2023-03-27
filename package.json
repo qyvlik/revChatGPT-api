@@ -1,0 +1,32 @@
+{
+  "name": "revchatgpt-api",
+  "version": "0.0.1",
+  "description": "Reverse engineered ChatGPT API by nodejs expose http restful api",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qyvlik/revChatGPT-api.git"
+  },
+  "author": "qyvlik@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qyvlik/revChatGPT-api/issues"
+  },
+  "homepage": "https://github.com/qyvlik/revChatGPT-api#readme",
+  "dependencies": {
+    "chatgpt": "^5.1.2",
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "moment-timezone": "^0.5.39",
+    "uuid": "^9.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 6000000
+  }
+}
