@@ -4,6 +4,9 @@ By using Http interfaces, it is possible to program across different programming
 
 docker hub: [https://hub.docker.com/r/qyvlik/revchatgpt-api](qyvlik/revchatgpt-api)
 
+[Security issues](https://github.com/transitive-bullshit/chatgpt-api#reverse-proxy). Build you own reverse proxy
+
+
 # start up
 
 ```bash

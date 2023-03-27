@@ -27,9 +27,9 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags:
-            - qyvlik/revchatgpt-api:0.0.1
-            - qyvlik/revchatgpt-api:latest
+          tags: |
+            qyvlik/revchatgpt-api:0.0.1
+            qyvlik/revchatgpt-api:latest
           build-args: |
             BUILD_APP_GIT_TAG=master
             BUILD_APP_GIT_HASH=${{ github.sha }}
